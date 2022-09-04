@@ -4,9 +4,9 @@ import background from "../../assets/background.jpeg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative">
+    <div className="w-full relative">
       <img
-        className="w-full h-full object-cover"
+        className="w-full h-2/6 object-cover"
         src={background}
         alt="Background"
       />
